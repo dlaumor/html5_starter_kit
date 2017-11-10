@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+	display: block;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* ------------------------- clearfix ------------------------- */
+
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+/* ------------------------- colors ------------------------- */
+
+/*
+	#fdeb75 - yellow
+	#ff8282 - red
+	#a0ec6f - green
+	#5ac6ff - blue
+*/
